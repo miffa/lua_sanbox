@@ -132,8 +132,8 @@ add_dependencies(lua_circular_buffer luasandbox)
 
 externalproject_add(
     lua_hyperloglog
-    GIT_REPOSITORY https://github.com/mozilla-services/lua_hyperloglog.git
-    GIT_TAG 92f8a59e9e6f4ee381482f449b6cee78bb55460a
+    GIT_REPOSITORY https://github.com/miffa/lua_hyperloglog_uparse.git
+    GIT_TAG 75834b4342933e58841de666b52f3893d36b09cf
     CMAKE_ARGS ${SANDBOX_CMAKE_ARGS}
     INSTALL_ARGS ${INST_ARGS}
 )
@@ -141,8 +141,8 @@ add_dependencies(lua_hyperloglog luasandbox)
 
 externalproject_add(
     lua_cuckoo_filter
-    GIT_REPOSITORY https://github.com/mozilla-services/lua_cuckoo_filter.git
-    GIT_TAG 8343207aa7656d0324d23f79a5732fcb0bdb5917
+    GIT_REPOSITORY https://github.com/miffa/lua_cuckoo_filter_uparse.git
+    GIT_TAG d0554ea5d92d669c79079f43c8c9fd31e6f8da3f
     CMAKE_ARGS ${SANDBOX_CMAKE_ARGS}
     INSTALL_ARGS ${INST_ARGS}
 )
