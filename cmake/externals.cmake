@@ -114,8 +114,8 @@ add_dependencies(lua_socket ${LUA_PROJECT})
 
 externalproject_add(
     lua_bloom_filter
-    GIT_REPOSITORY https://github.com/mozilla-services/lua_bloom_filter.git
-    GIT_TAG 4151be752c3dd2f74d1c3487d8352ca54055eb81
+    GIT_REPOSITORY https://github.com/miffa/lua_bloom_filter_uparse.git
+    GIT_TAG 75f993b05382e707e37fbb3edb9b600fc8cfba4b
     CMAKE_ARGS ${SANDBOX_CMAKE_ARGS}
     INSTALL_ARGS ${INST_ARGS}
 )
