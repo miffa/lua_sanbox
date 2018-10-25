@@ -123,8 +123,8 @@ add_dependencies(lua_bloom_filter luasandbox)
 
 externalproject_add(
     lua_circular_buffer
-    GIT_REPOSITORY https://github.com/mozilla-services/lua_circular_buffer.git
-    GIT_TAG bb6dd9f88f148813315b5a660b7e2ba47f958b31
+    GIT_REPOSITORY https://github.com/miffa/lua_circular_buffer_uparse.git
+    GIT_TAG 42b350a272ad26a377e017868a554ae5df96ccba
     CMAKE_ARGS ${SANDBOX_CMAKE_ARGS}
     INSTALL_ARGS ${INST_ARGS}
 )
