@@ -65,7 +65,7 @@ else()
     externalproject_add(
         ${LUA_PROJECT}
         GIT_REPOSITORY https://github.com/miffa/lua_uparse.git
-        GIT_TAG 4dbe11d9c3f794ede65812312c42838dc69f441c
+        GIT_TAG e0bf3c5d5e53a44312ce12d3706453fab3930d8a
         CMAKE_ARGS ${SANDBOX_CMAKE_ARGS}
         INSTALL_ARGS ${INST_ARGS}
     )
